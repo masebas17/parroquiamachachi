@@ -9569,7 +9569,7 @@ h6,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(33, 30, 28, 0.7);
+  background: rgba(33, 30, 28, 42%);
   z-index: 1;
 }
 
@@ -9608,7 +9608,7 @@ h6,
 }
 
 .bg-pricing {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/templo-machachi.JPG), no-repeat center center;
   background-size: cover;
 }
 
