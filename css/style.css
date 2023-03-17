@@ -9709,3 +9709,21 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.pdfview{
+  margin: auto;
+  display: block;
+  width: 890px;
+  height: 670px;
+}
+
+@media only screen and (max-width: 992px){
+  /* .pdfview{
+    margin: auto;
+    width: 320px;
+    height: 200px;
+  } */
+  .modulo-pdf{
+    display: none;
+  }
+}
