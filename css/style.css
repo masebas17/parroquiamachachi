@@ -9735,3 +9735,30 @@ h6,
   color: #000;
   text-align: justify;
 }
+
+.service-items{
+  /* width: 18%;
+  float: left; */
+  margin: 1%;
+  padding: 4% 5%;
+  border: 1px solid rgb(6, 98, 126);
+  border-radius: 15px;
+  /* box-shadow: 2px 2px 5px 2px #999; */
+  transition: 0.5s;
+  
+
+}
+.service-items:hover{
+  transform: scale(1.05) translateY(-0.2em);
+}
+.texto-centro{
+  text-align: center;
+}
+.float-contenedor{
+  position: relative;
+}
+.img-responsive{
+  width: 100%;
+
+}
+
