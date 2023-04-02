@@ -125,17 +125,17 @@
         })
     });
 
-        $(function(){
-           const $botonVentanaModal=$('#btn_modal');
-           const $ventanaModal = $('#videoModal');
-           const $iframe = $('#video');
+    //     $(function(){
+    //        const $botonVentanaModal=$('#btn_modal');
+    //        const $ventanaModal = $('#videoModal');
+    //        const $iframe = $('#video');
 
-           $botonVentanaModal.on('click',function(){
-               $ventanaModal.modal('show');
-               $iframe.attr('src', videoSrc);
-           });
+    //        $botonVentanaModal.on('click',function(){
+    //            $ventanaModal.modal('show');
+    //            $iframe.attr('src', videoSrc);
+    //        });
 
-      });
+    //   });
 
     
 })(jQuery);
