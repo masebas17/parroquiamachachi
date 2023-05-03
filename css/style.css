@@ -371,6 +371,10 @@ h1, h2, h3, h4, h5, h6,
   color: rgb(254, 241, 239);
 }
 
+h7, .h7 {
+  color: #1D71B8 !important;
+}
+
 h1, .h1 {
   font-size: 2.5rem;
 }
@@ -9726,6 +9730,14 @@ h6,
   height: 670px;
 }
 
+.img-services{
+  width: 780px;
+  height: 300px;
+  align-content: center;
+  padding: 10px;
+}
+
+
 @media only screen and (max-width: 992px){
   .pdfview{
     margin: auto;
@@ -9737,6 +9749,11 @@ h6,
   }
   .image{
    width: 300px;
+  }
+  .img-services{
+    width: 320px;
+    height: 150px;
+    padding: 10px;
   }
 }
 
@@ -9798,4 +9815,5 @@ h6,
   background: #000000;
   opacity: 1;
 }
+
 
