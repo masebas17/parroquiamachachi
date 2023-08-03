@@ -160,6 +160,13 @@ a {
   background-color: transparent;
 }
 
+.a-parrafo {
+  color: #0e3363;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
 a:hover {
   color: #d6cd63;
   text-decoration: underline;
@@ -9627,6 +9634,16 @@ h6,
 
 .bg-jumbotron {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/iglesia-machachi.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-page-jesus {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/iglesia-machachi.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-page-catequesis {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/Catequesis_Machachi_2023.jpg), no-repeat center center;
   background-size: cover;
 }
 
