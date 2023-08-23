@@ -9586,6 +9586,13 @@ h6,
   background: rgba(33, 30, 28, 40%);
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .btn-light {
+    font-size: 8px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+}
+
 .carousel-caption2 {
   top: 0;
   left: 0;
