@@ -9645,7 +9645,12 @@ h6,
 }
 
 .bg-page-jesus {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/iglesia-machachi.jpg), no-repeat center center;
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/Jesus_Santa_Escuela.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-page-sacerdotes {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/eucaristia.jpg), no-repeat center center;
   background-size: cover;
 }
 
