@@ -9766,6 +9766,14 @@ h6,
   padding: 10px;
 }
 
+.animation-image{
+  transition: 0.5s ;
+}
+
+.animation-image:hover {
+  transform: scale(1.03) translateY(-0.2em);
+}
+
 
 @media only screen and (max-width: 992px){
   .pdfview{
