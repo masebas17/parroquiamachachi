@@ -117,13 +117,49 @@
          // console.log($videoSrc);
 
          $('#videoModal').on('shown.bs.modal', function (e) {
+           
              $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
          })
 
          $('#videoModal').on('hide.bs.modal', function (e) {
-             $("#video").attr('src', $videoSrc);
+             $("#video").attr('src', $videoSrc).removeAttr('autoplay');
          })
      });
+
+    //audios - reproducción 
+
+    var audioElements = document.getElementsByTagName("audio");
+
+        for (var i = 0; i < audioElements.length; i++) {
+            audioElements[i].addEventListener("play", function (event) {
+            var currentAudio = event.target;
+             for (var j = 0; j < audioElements.length; j++) {
+                 if (audioElements[j] !== currentAudio && !audioElements[j].paused) {
+                    audioElements[j].pause();
+                 }
+            }
+        });
+    }
+
+    //reproduccion lista de audios 
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var reproductor = document.getElementById("reproductor");
+        var listaCanciones = document.querySelectorAll(".play-button");
+      
+        listaCanciones.forEach(function (cancion) {
+          cancion.addEventListener("click", function () {
+            var src = this.getAttribute("data-src");
+            reproductor.src = src;
+            reproductor.play();
+          });
+        });
+      });
+
+  
+      
+
+
 
     //     $(function(){
     //        const $botonVentanaModal=$('#btn_modal');

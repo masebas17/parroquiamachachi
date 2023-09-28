@@ -24,6 +24,7 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/4.1.1/css/wavesurfer.min.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -104,7 +105,7 @@
             <h3 class="text-white display-3 mb-4">Jesús de la <br> Santa Escuela</h3>
             <div class="d-inline-flex align-items-center text-white">
                 <div class="carousel-btn">
-                    <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp btn-play" id="btn_modal" data-toggle="modal" data-src="https://www.youtube.com/embed/t6UMEtWBWJ4?si=FxDrbR92pqB_4HQq" data-target="#videoModal"><i class="fa fa-play" aria-hidden="true"></i> Canción</a>
+                    <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp btn-play" id="btn_modal" data-toggle="modal" data-src="https://www.youtube.com/embed/t6UMEtWBWJ4?si=FxDrbR92pqB_4HQq" data-target="#videoModal"><i class="fa fa-play" aria-hidden="true"></i> Video - Canción</a>
                 </div>
                 <a href="https://online.fliphtml5.com/vyqjs/sltl/" target="_blank" class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"><i class="fa-solid fa-book"></i> Novena </a> 
             </div>  
@@ -182,13 +183,68 @@
             </p>
             
         </div>
+
+        <div class="container bg-light text-center">
+            <h4 class="mb-4">Canciones dedicadas a Jesús de la Santa Escuela</h4>
+        </div>
+
+        <div class="container py-1">
+        <div class="row">
+            <div class="col-sm-6">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th>Canción</th>
+                    <th>Reproducir</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Súplicas al Señor de la Santa Escuela</td>
+                    <td><button class="play-button" data-src="assets/audios/Súplicas al Señor de la Santa Escuela.MP3"><i class="fas fa-play"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>Pasillo - Oración al Señor de la Santa Escuela</td>
+                    <td><button class="play-button" data-src="assets/audios/ORACION AL SEÑOR DE LA SANTA ESCUELA ACUSTICO.mp3"><i class="fas fa-play"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>Tu presencia es el Milagro</td>
+                    <td><button class="play-button" data-src="assets/audios/TU PRESENCIA ES EL MILAGRO.MP3"><i class="fas fa-play"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-6" style="margin: 6% 0;" >
+                <audio id="reproductor" controls controlsList="nodownload">
+                    Tu navegador no admite el elemento de audio.
+                </audio>
+            </div>
+        </div>
+        </div>
+          
+        <!-- <div class="container bg-light">
+            <h4 class="mb-4">Canciones dedicadas al Señor de la Santa Escuela</h4>
+        </div>
+        <div class="container py-1">
+            <h5 style="color: black;">Súplicas al Señor de la Santa Escuela</h5>
+            <audio id="audio1" controls controlsList="nodownload" src="assets/audios/Súplicas al Señor de la Santa Escuela.MP3"></audio>
+        </div>
+        <div class="container py-1">
+            <h5 style="color: black;">Pasillo - Oración al Señor de la Santa Escuela</h5>
+            <audio id="audio2" controls controlsList="nodownload" src="assets/audios/ORACION AL SEÑOR DE LA SANTA ESCUELA ACUSTICO.mp3"></audio>
+        </div>
+        <div class="container py-1">
+            <h5 style="color: black;">Tu Presencia es el Milagro</h5>
+            <audio id="audio3" controls controlsList="nodownload" src="assets/audios/TU PRESENCIA ES EL MILAGRO.MP3"></audio>
+        </div> -->
         
-        <div class="container">
+        <!-- <div class="container">
             <div class=" flex-column justify-content-start">
                 <a href="assets/archivos/Triptico Fiestas del Señor de la Santa Escuela 2023.pdf" target="_blank" download="Programa_Señor_de_la_Santa_Escuela_2023.pdf" class="btn btn-outline-danger"><i class="fa-solid fa-file-pdf"></i>  Descargar Programa de Fiestas 2023</a> 
                 <a href="https://online.fliphtml5.com/vyqjs/sltl/" target="_blank" class="btn btn-outline-danger"><i class="fa-solid fa-book"></i> Revisar el Folleto de la Novena </a> 
             </div>
-        </div>
+        </div> -->
+
     </div>
 
 
@@ -366,6 +422,9 @@
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
+
+    <!-- audio -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/4.1.1/wavesurfer.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

@@ -9895,3 +9895,70 @@ h6,
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
+
+
+/* Cambia el color de fondo del reproductor */
+
+audio {
+  background-color: #386fb3;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+/* Cambia el color de fondo del botón de reproducción cuando se pasa el cursor sobre él */
+audio:hover button {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Cambia el estilo de la barra de reproducción */
+audio input[type="range"] {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* Cambia el estilo del tiempo actual y la duración */
+audio span {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Cambia el estilo de los botones de control (anterior, siguiente, volumen, etc.) */
+audio button {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.play-button {
+  background-color: #F9A392;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.play-button i {
+  font-size: 30px;
+}
+
+
+.play-button:hover {
+  transform: scale(1.03) translateY(-0.2em);
+}
+
+
