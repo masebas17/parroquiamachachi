@@ -30,6 +30,9 @@
 </head>
 
 <body>
+    <div id="contenedor_carga">
+        <div id="carga"></div>
+    </div>
     <!-- Topbar Start -->
     <div class="container-fluid bg-light d-none d-lg-block">
         <div class="row py-2 px-lg-5">
@@ -1026,6 +1029,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- Spinner loader -->
+    <script>
+        window.onload = function(){
+            var contenedor = document.getElementById('contenedor_carga');
+            contenedor.style.visibility = 'hidden';
+            contenedor.style.opacity = '0';
+        }
+    </script>
 </body>
 
 </html>
