@@ -10008,24 +10008,16 @@ audio button {
   opacity: 0.7;
 }
 
-.btn-photo{
-  transition: transform 0.3s, background-color 0.3s;
-}
 
-.btn-photo:hover{
-  transform: scale(1.03) translateY(-0.2em);
-  background-color: #F9A392;
-}
-
-.image-link {
+/* .image-link {
   display: block;
-  text-decoration: none; /* Elimina la subrayado del enlace */
+  text-decoration: none; 
 }
 
 .image-container {
   position: relative;
-  width: 300px; /* Ajusta el ancho según tus necesidades */
-  height: 300px; /* Ajusta la altura según tus necesidades */
+  width: 300px; 
+  height: 300px; 
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -10054,17 +10046,68 @@ audio button {
   bottom: -100%;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7); /* Color de fondo con opacidad */
+  background: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   text-align: center;
   transition: bottom 0.3s, opacity 0.3s;
 }
 
 .image-container:hover .image-overlay {
-  bottom: 0; /* Muestra el título deslizando desde abajo */
-  opacity: 1; /* Hace que el título sea completamente visible */
+  bottom: 0; 
+  opacity: 1; 
+}
+
+h3 {
+  color: #fff; 
+} */
+
+.image-link {
+  display: block;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.image-container {
+  position: relative;
+  width: 350px; /* Ajusta el ancho según tus necesidades */
+  height: 350px; /* Ajusta la altura según tus necesidades */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.image-container.image-1 {
+  background-image: url(../img/Sistema_de_Gestion_Catequesis.jpg);
+}
+
+.image-container.image-2 {
+  background-image: url(../img/catequesis_2023.jpg);
+}
+
+.image-container.image-3 {
+  background-image: url(../img/cáritas_2023_Machachi.jpg);
+}
+
+.image-link:hover .image-container {
+  transform: scale(1.03) translateY(-0.2em);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* Color de fondo con opacidad */
+  padding: 10px;
+  text-align: center;
+  transition: bottom 0.3s, opacity 0.3s; /* Transición de color de fondo */
 }
 
 h3 {
   color: #fff; /* Color del texto del título */
 }
+
+.image-overlay:hover {
+  background: rgba(0, 0, 0, 0.7); /* Mantiene el fondo con opacidad en hover */
+}
+
