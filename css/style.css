@@ -6173,6 +6173,15 @@ button.bg-danger:focus {
   background-color: #1D71B8 !important;
 }
 
+.bg-anunce {
+  /* background-color: #FEF1EF !important; */
+   /* background-color: #c38677 !important;  */
+  /* border-top-color: #cf3b1c !important; 
+  border-top-width: 10px ; */
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/img-annunce.jpg), no-repeat center center;
+  background-size: cover; 
+}
+
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
@@ -9629,6 +9638,37 @@ h6,
   height: calc(100% + 40px);
 }
 
+.anunce-item img {
+  position: relative;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+
+.anunce-item .anunce-text {
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 86px); 
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(33, 30, 28, 0.6);
+  transition: .5s;
+  z-index: 1;
+}
+
+.anunce-item:hover {
+  margin-top: 0;
+}
+
+.anunce-item:hover {
+  height: calc(100% + 40px);
+}
+
+
 .bg-appointment {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
   background-size: cover;
@@ -9645,7 +9685,7 @@ h6,
 }
 
 .bg-page-jesus {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/Jesus_Santa_Escuela.jpg), no-repeat center center;
+  background: linear-gradient(rgba(33, 30, 28, 0.9), rgba(33, 40, 28, 0.4)), url(../img/Señor_de_la_Santa_Escuela_Machachi.jpg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9961,4 +10001,70 @@ audio button {
   transform: scale(1.03) translateY(-0.2em);
 }
 
+.logo_principal{
+  transition: 0.3s;
+}
+.logo_principal:hover{
+  opacity: 0.7;
+}
 
+.btn-photo{
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn-photo:hover{
+  transform: scale(1.03) translateY(-0.2em);
+  background-color: #F9A392;
+}
+
+.image-link {
+  display: block;
+  text-decoration: none; /* Elimina la subrayado del enlace */
+}
+
+.image-container {
+  position: relative;
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  transition: transform 0.3s
+}
+
+.image-container.image-1 {
+  background-image: url(../img/Sistema_de_Gestion_Catequesis.jpg);
+}
+
+.image-container.image-2 {
+  background-image: url(../img/catequesis_2023.jpg);
+}
+
+.image-container.image-3 {
+  background-image: url(../img/cáritas_2023_Machachi.jpg);
+}
+
+
+.image-link:hover .image-container {
+  transform: scale(1.03) translateY(-0.2em);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* Color de fondo con opacidad */
+  padding: 10px;
+  text-align: center;
+  transition: bottom 0.3s, opacity 0.3s;
+}
+
+.image-container:hover .image-overlay {
+  bottom: 0; /* Muestra el título deslizando desde abajo */
+  opacity: 1; /* Hace que el título sea completamente visible */
+}
+
+h3 {
+  color: #fff; /* Color del texto del título */
+}

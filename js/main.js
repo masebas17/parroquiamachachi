@@ -156,10 +156,6 @@
         });
       });
 
-  
-      
-
-
 
     //     $(function(){
     //        const $botonVentanaModal=$('#btn_modal');
@@ -172,7 +168,6 @@
     //        });
 
     //   });
-
     
 })(jQuery);
 
