@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Parroquia Santiago Apóstol de Machachi</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <link rel="icon" type="image" href="img/icono-parroquia.png">
     <meta content="Parroquia Santiago Apóstol de Machachi" name="keywords">
     <meta content="Parroquia Eclesiástica Santiago de Machachi" name="description">
@@ -72,7 +72,7 @@
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
                 <!-- <h1 class="m-0 text-primary"><span class="text-dark">SPA</span> Center</h1> -->
-                <img class="logo_principal" src="./img/logo_parroquia.png" width="200" alt="">
+                <img class="logo_principal" src="./img/logo_parroquia_adviento.png" width="200" alt="">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -212,8 +212,8 @@
     <!-- Carousel End -->
 
     <!-- Video Modal Start-->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+    <div class="modal fade" id="videoModal-index" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -221,7 +221,7 @@
                     </button>        
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HpJJceG_2EE?si=2_Wxo2-i-hMCSpOV" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -1027,6 +1027,13 @@
             contenedor.style.visibility = 'hidden';
             contenedor.style.opacity = '0';
         }
+    </script>
+    <script>
+        // Espera a que el documento esté completamente cargado
+        $(document).ready(function(){
+            // Muestra el modal cuando la página se carga
+            $('#videoModal-index').modal('show');
+        });
     </script>
 </body>
 
