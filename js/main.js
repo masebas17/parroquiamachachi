@@ -126,6 +126,24 @@
          })
      });
 
+     // Modal Video 2
+     $(document).ready(function () {
+        var $videoSrc = "https://www.youtube.com/embed/HpJJceG_2EE?si=2_Wxo2-i-hMCSpOV" ;
+        // console.log($videoSrc);
+
+        $('#videoModal-index').on('shown.bs.modal', function (e) {
+          
+            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        })
+
+        $('#videoModal-index').on('hide.bs.modal', function (e) {
+            $("#video").attr('src', $videoSrc).removeAttr('autoplay');
+        })
+
+        $('#videoModal-index').modal('show');
+    });
+
+    
     //audios - reproducción 
 
     var audioElements = document.getElementsByTagName("audio");
