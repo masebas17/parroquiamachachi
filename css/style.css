@@ -6170,8 +6170,8 @@ button.bg-danger:focus {
 
 .bg-light {
   /* background-color: #FEF1EF !important; */
-  /* background-color: #1D71B8 !important; */
-  background-color: #6a4c93 !important;
+  background-color: #1D71B8 !important;
+  /* background-color: #6a4c93 !important; */
 }
 
 .bg-anunce {
@@ -6190,8 +6190,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  /* background-color: #1D71B8 !important; */
-  background-color: #6a4c93 !important;
+  background-color: #1D71B8 !important;
+  /* background-color: #6a4c93 !important; */
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9566,8 +9566,8 @@ h6,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   /* color: #F9A392; */
-  /* color: #1D71B8; */
-  color: #6a4c93;
+  color: #1D71B8;
+  /* color: #6a4c93; */
 }
 
 @media (max-width: 991.98px) {
@@ -10165,3 +10165,11 @@ h3 {
   width: 100%;
   height: 100%;
 }
+
+
+/* estilos del carrusel principal */
+
+/* .carousel-principal{
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
