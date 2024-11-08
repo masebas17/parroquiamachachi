@@ -10096,6 +10096,10 @@ h3 {
   background-image: url(../img/matriculas_catequesis_Mesa\ de\ trabajo\ 1.png);
 }
 
+.image-container.image-5 {
+  background-image: url(../img/coros-navidenios.jpg);
+}
+
 .image-link:hover .image-container {
   transform: scale(1.03) translateY(-0.2em);
 }
