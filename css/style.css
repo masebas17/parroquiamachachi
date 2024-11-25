@@ -6179,7 +6179,7 @@ button.bg-danger:focus {
    /* background-color: #c38677 !important;  */
   /* border-top-color: #cf3b1c !important; 
   border-top-width: 10px ; */
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/img-annunce.jpg), no-repeat center center;
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/anunce-coros-navidenios.jpg), no-repeat center center;
   background-size: cover; 
 }
 
@@ -9699,6 +9699,11 @@ h6,
 
 .bg-page-catequesis {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/Catequesis_Machachi_2023.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-page-coros {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.4)), url(../img/coros-navidenios.jpg), no-repeat center center;
   background-size: cover;
 }
 
